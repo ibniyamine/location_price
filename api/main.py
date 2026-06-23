@@ -12,5 +12,5 @@ def read_root():
 @app.get("/hello")
 def hello():
    return {
-       "message": "Hello pour tester"
+       "message": "Hello pour tester le push"
    }
