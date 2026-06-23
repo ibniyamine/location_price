@@ -7,3 +7,10 @@ def read_root():
    return {
        "message": "Hello from FastAPI"
    }
+
+
+@app.get("/hello")
+def hello():
+   return {
+       "message": "Hello pour tester"
+   }
