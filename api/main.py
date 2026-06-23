@@ -14,3 +14,10 @@ def hello():
    return {
        "message": "Hello pour tester le push"
    }
+
+
+@app.get("/collaboration")
+def hello():
+   return {
+       "message": "Hello pour tester le push"
+   }
